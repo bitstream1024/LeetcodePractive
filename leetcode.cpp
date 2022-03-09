@@ -2,11 +2,11 @@
 #include <vector>
 #include <stack>
 
-#include "Solution_19_DeleteRNstNode.h"
+#include "SolutionTest.h"
 
 int main()
 {
-    SolutionBase *pSoulution = new Solution_19_DeleteRNstNode();
+    SolutionBase *pSoulution = new SolutionTest();
     pSoulution->RunTest();
 
     return 0;
