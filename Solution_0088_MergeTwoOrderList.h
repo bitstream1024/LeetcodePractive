@@ -18,11 +18,17 @@ public:
 		//cg_tool::PrintList(list0, "list res");
     }
 
-    // 使用 list 空间复杂度为 O(n)
+    // 使用 list, 时间复杂度为 O(max(m, n))，空间复杂度为 O(m+n)
 	void mergeWithList(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n)
 	{
 		if (m == 0)
+		{
 			nums1 = nums2;
+			return;
+		}
+
+		if (n == 0)
+			return;
 
 		size_t index_0 = 0;
 		size_t index_1 = 0;
