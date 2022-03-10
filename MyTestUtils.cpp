@@ -88,3 +88,24 @@ void MyTestUtils::MySortUtils::QuickSort(std::vector<int> &list)
 		}
 	}
 }
+
+static void MergeOrderList(std::vector<int> &list, const size_t &headIndex1, 
+	const size_t &headIndex2, const size_t &endIndex2)
+{
+	const size_t Len = list.size();
+	if (Len <= 1 || headIndex1 > Len || headIndex2 > Len)
+		return;
+	
+	rsize_t start1 = headIndex1;
+	rsize_t start2 = headIndex2;
+	do
+	{
+		//if ()
+	} while (true);
+
+	return;
+}
+void MyTestUtils::MySortUtils::MergeSort(std::vector<int> &list)
+{
+
+}

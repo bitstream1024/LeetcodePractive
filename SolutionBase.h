@@ -1,3 +1,5 @@
+#include "MyCommonHelper.h"
+
 class SolutionBase
 {
 public:

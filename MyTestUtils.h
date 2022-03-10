@@ -8,5 +8,7 @@ public:
 			static void InsertSort2(std::vector<int> &list);
 
 			static void QuickSort(std::vector<int> &list);
+
+			static void MergeSort(std::vector<int> &list);
     };
 };

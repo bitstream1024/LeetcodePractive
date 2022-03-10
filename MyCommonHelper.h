@@ -1,6 +1,12 @@
 /**
 * My tool box for common operation
 */
+#include "stdio.h"
+#include <iostream>
+#include <vector>
+#include <string>
+
+#pragma once
 
 namespace cg_tool
 {
@@ -21,4 +27,13 @@ namespace cg_tool
 	{
 		return var1 <= var2 ? var2 : var1;
 	}
+
+	//template <typename T> static void PrintList(const std::vector<T> &list, std::string strInfo)
+	//{
+	//	std::count << strInfo.c_str() << "PrintList: " << std::endl;
+	//	for (size_t i = 0; i < list.size(); ++i)
+	//	{
+	//		//std::count << "list[" << i << "]" << list[i] << std::endl;			
+	//	}
+	//}
 }
