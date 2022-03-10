@@ -4,7 +4,7 @@
 #include <vector>
 #include <stack>
 
-class Solution_876_FindLinkListMiddle : public SolutionBase
+class Solution_141_HasCircle : public SolutionBase
 {
 public:
 
@@ -12,7 +12,7 @@ public:
     {
         ListNode *pNode = ListNode::CreateLinkList(4);
         ListNode::PrintLinkList(pNode, "pNode");
-        bool bHasCircle = Solution_876_FindLinkListMiddle::hasCycle(pNode);
+        bool bHasCircle = hasCycle(pNode);
         //ListNode::PrintLinkList(pResultNode, "pResultNode");
         ListNode::FreeLinkList(&pNode);
     }

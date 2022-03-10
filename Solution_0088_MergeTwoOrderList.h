@@ -3,6 +3,7 @@
 #include "ListNode.h"
 #include <vector>
 #include <stack>
+#include <algorithm>
 
 class Solution_0088_MergeTwoOrderList : public SolutionBase
 {
@@ -18,7 +19,7 @@ public:
 		//cg_tool::PrintList(list0, "list res");
     }
 
-    // 使用 list, 时间复杂度为 O(max(m, n))，空间复杂度为 O(m+n)
+    // 使用 list, 时间复杂度为 O(m+n))，空间复杂度为 O(m+n)
 	void mergeWithList(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n)
 	{
 		if (m == 0)
@@ -66,6 +67,18 @@ public:
 		}
 
 		nums1 = resList;
+
+		return;
+	}
+
+	// sort 内部使用快速排序方法，时间复杂度为 O((m+n)*(log(m+n))) 空间复杂度为 O(log(m+n))
+	void mergeWithSort(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n)
+	{
+		for (size_t i = 0; i < n; ++i)
+		{
+			nums1[m + i] = nums2[i];
+		}
+		sort(nums1.begin(), nums1.end());
 
 		return;
 	}
