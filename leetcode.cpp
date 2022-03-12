@@ -2,11 +2,11 @@
 #include <vector>
 #include <stack>
 
-#include "Solution_0088_MergeTwoOrderList.h"
+#include "Solution_0021_MergeTwoLinkLists.h"
 
 int main()
 {
-    SolutionBase *pSoulution = new Solution_0088_MergeTwoOrderList();
+    SolutionBase *pSoulution = new Solution_0021_MergeTwoLinkLists();
     pSoulution->RunTest();
 
     return 0;
