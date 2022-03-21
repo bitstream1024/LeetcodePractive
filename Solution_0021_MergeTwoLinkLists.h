@@ -20,7 +20,7 @@ public:
         ListNode::FreeLinkList(&pNode2);
     }
 
-    /// 
+    // из╠Ь
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
     {
         if (nullptr == list1 || nullptr == list2)
