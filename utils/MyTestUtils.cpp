@@ -1,5 +1,5 @@
 #include "MyTestUtils.h"
-#include "MyCommonHelper.h"
+#include "MyCommonDefine.h"
 
 static void InsertNum(std::vector<int> &list, const int &insertIndex, const int &endIndex)
 {

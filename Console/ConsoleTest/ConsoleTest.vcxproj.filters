@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{bd026694-de2f-4ca4-87a1-88dac5bda7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solution">
+      <UniqueIdentifier>{83e17404-53f1-4532-9cf3-c67491da8087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{18c9fd5d-4e13-403f-b2c5-15347a232695}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\ListNode.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\TreeNode.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\MyCommonDefine.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\MyTestUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_19_DeleteRNstNode.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0021_MergeTwoLinkLists.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0033_SearchRotateOrderList.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0034_SearchRange.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0088_MergeTwoOrderList.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0094_InorderTraversal.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0102_LevelOrderTraversal.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_141_HasCircle.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_206_ReverseLinkList.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_876_FindLinkListMiddle.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\SolutionBase.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\SolutionTest.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0318.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0030.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\MyTestUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

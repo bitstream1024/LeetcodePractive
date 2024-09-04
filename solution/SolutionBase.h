@@ -5,8 +5,9 @@
 #include <stack>
 #include <string>
 #include <iostream>
+#include <unordered_map>
 
-#include "MyCommonHelper.h"
+#include "MyCommonDefine.h"
 
 class SolutionBase
 {
