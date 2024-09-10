@@ -31,7 +31,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{7a941f59-fff6-48b0-b6ba-21b73b36d714}</ProjectGuid>
     <RootNamespace>ConsoleTest</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -207,6 +207,7 @@
     <ClInclude Include="..\..\solution\Solution_0030.h" />
     <ClInclude Include="..\..\solution\Solution_0033_SearchRotateOrderList.h" />
     <ClInclude Include="..\..\solution\Solution_0034_SearchRange.h" />
+    <ClInclude Include="..\..\solution\Solution_0056.h" />
     <ClInclude Include="..\..\solution\Solution_0088_MergeTwoOrderList.h" />
     <ClInclude Include="..\..\solution\Solution_0094_InorderTraversal.h" />
     <ClInclude Include="..\..\solution\Solution_0102_LevelOrderTraversal.h" />

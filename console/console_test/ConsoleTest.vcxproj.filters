@@ -78,6 +78,9 @@
     <ClInclude Include="..\..\solution\Solution_0030.h">
       <Filter>solution</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\solution\Solution_0056.h">
+      <Filter>solution</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
